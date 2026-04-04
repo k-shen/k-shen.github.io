@@ -1,0 +1,151 @@
+<section id="experience" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <h2 class="col-lg-2 text-primary">Experience</h2>
+      <div class="col-lg-9">
+        <div class="lead">
+          <h4>Amazon: <em>
+            <small class="text-secondary">Software Development Engineer II</small>
+          </em></h4>
+          <p class="text-secondary">&emsp;&#8212;&emsp;WFM.com (Full Stack)</p>
+          <ul>
+            <li>Automated Product Data Cleanup Service</li>
+            <ul>
+              <li>
+                Diagnosed recurring duplicate product issues caused by stale upstream data with no deletion signals, which required repeated manual cleanup by engineers
+              </li>
+              <li>
+                Designed and built a post-ingestion validation service to detect and remove stale or conflicting product records across 1M+ initial records and ~250K daily updates
+              </li>
+              <li>
+                Eliminated duplicate product surfacing and reduced ongoing manual cleanup by ~2 SDE hours/week, improving customer experience
+              </li>
+            </ul>
+            <br>
+
+            <li>Low-Latency Scaling for High-Volume Scheduling System</li>
+            <ul>
+              <li>
+                Addressed latency risk for a critical launch where a 950% increase in data volume would have exceeded SLA thresholds (projected ~3300ms latency)
+              </li>
+              <li>
+                Introduced a constraint filtering framework to bypass unnecessary downstream calls and reduce computational overhead
+              </li>
+              <li>
+                Reduced latency to ~1100ms (67% improvement), enabling successful rollout across 150+ stores without performance degradation
+              </li>
+            </ul>
+            <br>
+
+            <li>Cross-System Data Consistency & Identifier Reconciliation</li>
+            <ul>
+              <li>
+                Investigated pricing inconsistencies caused by mismatches between ASINs and upstream identifiers (e.g., UPCs) across distributed data pipelines
+              </li>
+              <li>
+                Designed a consistency layer to reconcile identifier-level data and correctly merge availability and pricing information into canonical ASIN records
+              </li>
+              <li>
+                Improved pricing accuracy across WFM.com and eliminated customer-facing discrepancies, restoring trust in product data
+              </li>
+            </ul>
+            <br>
+
+            <li>Content Platform Integration for Next.js Frontend</li>
+            <ul>
+              <li>
+                Led architecture design to integrate internal content systems with a Next.js frontend, overcoming framework incompatibilities between backend services and UI layer
+              </li>
+              <li>
+                Contributed to a platform service layer (WWOS) enabling standardized communication between frontend and multiple backend systems
+              </li>
+              <li>
+                Reduced operational overhead by ~2 SDE hours/week and enabled scalable content delivery for customer-facing pages
+              </li>
+            </ul>
+            <br>
+
+            <li>Migration off Third-Party Data Provider ($1.5M Cost Reduction)</li>
+            <ul>
+              <li>
+                Led WFM.com-side migration from a $1.5M/year third-party data provider, defining system requirements across loosely documented legacy pipelines
+              </li>
+              <li>
+                Collaborated with multiple upstream teams across time zones to align on data contracts and unblock integration challenges
+              </li>
+              <li>
+                Successfully transitioned to internal data sources, eliminating external dependency and reducing long-term operational costs
+              </li>
+            </ul>
+            <br>
+          </ul>
+
+          <p class="text-secondary">&emsp;&#8212;&emsp;Platform / Stores Team (Backend / Distributed Systems)</p>
+          <ul>
+            <li>JDK8 → JDK17 Migration Across Distributed Pipelines</li>
+            <ul>
+              <li>
+                Led migration of 50+ packages across 7+ pipelines serving 600+ downstream clients, requiring strict backward compatibility guarantees
+              </li>
+              <li>
+                Developed migration strategy and coordinated rollout while resolving dependency conflicts surfaced by client teams
+              </li>
+              <li>
+                Achieved performance improvements from JDK17 while maintaining system stability across a complex distributed ecosystem
+              </li>
+            </ul>
+            <br>
+
+            <li>Internal Tooling for Automated Brand Onboarding</li>
+            <ul>
+              <li>
+                Built and deployed a React-based internal tool to automate brand onboarding workflows for Amazon Grocery
+              </li>
+              <li>
+                Refactored legacy frontend into reusable components, improving maintainability and developer velocity
+              </li>
+              <li>
+                Reduced manual onboarding effort (5+ SDE hours/brand to 1 SDE hour/brand) and improved usability for internal stakeholders
+              </li>
+            </ul>
+            <br>
+
+            <li>Same-Day Grocery Delivery Expansion</li>
+            <ul>
+              <li>
+                Contributed to a high-priority initiative to expand Amazon's same-day perishable grocery delivery, part of a nationwide rollout covered in the
+                <a href="https://www.wsj.com/business/retail/amazon-to-expand-same-day-grocery-delivery-5528a04e" target="_blank">Wall Street Journal</a>
+              </li>
+              <li>
+                Took ownership of store onboarding and configuration during absence of lead engineer, coordinating across multiple teams to resolve integration issues
+              </li>
+              <li>
+                Enabled successful rollout across 100+ stores, ensuring launch timelines were met under evolving requirements
+              </li>
+            </ul>
+            <br>
+          </ul>
+        </div>
+        <div class="lead">
+          <h4>Pendo.io: <em><small class="text-secondary">Software Engineering Intern</small></em></h4>
+          <ul>
+            <li>Designed, developed, and presented a generic and scalable comment model for Pendo's Guide alerts (model designed to support future usages on other Pendo products).</li>
+            <li>Produced code within the Pendo codebase on both Backend (using GOlang) and Frontend (using Vue.js) and established RESTful API endpoints with Google Cloud Storage operations.</li>
+            <li>Worked in an Agile/Scrum environment in a team setting with cross-team collaborations. Participated in all sprint activities.</li>
+          </ul>
+        </div>
+        <br>
+        <div class="lead">
+          <h4>Purdue University: <em><small class="text-secondary">Teaching Assistant/Grader</small></em></h4>
+          <ul>
+            <li>ECE 39595 - Object Oriented Programming C++</li>
+            <li>ECE 36800 - Data Structure</li>
+            <li>ECE 26400 - Advanced C Programming</li>
+            <li>Supervise and tutor 200+ students and evaluate course work.</li>
+            <li>Work closely with professors and faculty members to ensure optimal student success in the course.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
